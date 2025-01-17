@@ -20,7 +20,7 @@ const Data = {
         "name": "Home & Kitchen",
         "image":"https://reviewed-com-res.cloudinary.com/image/fetch/s--m06pqtVp--/b_white,c_limit,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,q_auto,w_1200/https://reviewed-production.s3.amazonaws.com/1568033796060/Appliance.png",
         "description": "Appliances, furniture, and decor items",
-        "Link":"/home&kitchen"
+        "Link":"/home_kitchen"
       }
     ],
     "products": [
@@ -116,4 +116,5 @@ const Data = {
       }
     ]
   }
+
   export default Data

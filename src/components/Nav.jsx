@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router";
 import '../input.css'
 
-const EcommerceNavbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -65,7 +65,7 @@ const EcommerceNavbar = () => {
                 </svg>
               </NavLink>
               <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full px-1">
-                {9}
+                {}
               </span>
             </div>
           </div>
@@ -154,4 +154,4 @@ const EcommerceNavbar = () => {
   );
 };
 
-export default EcommerceNavbar;
+export default Navbar;
